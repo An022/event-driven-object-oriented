@@ -10,7 +10,7 @@ Reference to Stanford University’s assignment CS106AP: Programming Methodologi
     * Create a ball that whose center is in the middle of the window.\
     * Set default values for the ball’s initial x and y velocities. (referred to as vx and vy throughout the rest of this handout)
   
-  *  Milestone 2: Draw the bricks (breakoutgraphics.py)\
+  *  Milestone 2: Draw the bricks (breakoutgraphics.py)
    
      The number, dimensions, and spacing of the bricks are specified using named constants in the breakoutgraphics.py starter file.\
      The BRICK_OFFSET constant is the distance from the top of the window to the top edge of the first line of bricks. 
