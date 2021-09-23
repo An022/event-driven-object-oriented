@@ -5,20 +5,20 @@ Reference to Stanford University’s assignment CS106AP: Programming Methodologi
 * [breakoutgraphics](https://github.com/An022/self_learning-event-driven-object-oriented/blob/main/breakout/breakoutgraphics.py)
   * Milestone 1: Fill in the BreakoutGraphics constructor (breakoutgraphics.py)\
    
-   (1) Create a paddle at the correct starting location using the given constants.\
+    * Create a paddle at the correct starting location using the given constants.\
        (PADDLE_OFFSET is the distance from the top of the paddle to the bottom of the window)\
-   (2) Create a ball that whose center is in the middle of the window.\
-   (3) Set default values for the ball’s initial x and y velocities. (referred to as vx and vy throughout the rest of this handout)
+    * Create a ball that whose center is in the middle of the window.\
+    * Set default values for the ball’s initial x and y velocities. (referred to as vx and vy throughout the rest of this handout)
   
   *  Milestone 2: Draw the bricks (breakoutgraphics.py)\
    
-   The number, dimensions, and spacing of the bricks are specified using named constants in the breakoutgraphics.py starter file.\
-   The BRICK_OFFSET constant is the distance from the top of the window to the top edge of the first line of bricks. 
-   The left side of the very first brick in a row should start at the very left edge of the window, and the remaining bricks should be drawn at appropriate locationsto produce the pattern detailed above.
+     The number, dimensions, and spacing of the bricks are specified using named constants in the breakoutgraphics.py starter file.\
+     The BRICK_OFFSET constant is the distance from the top of the window to the top edge of the first line of bricks. 
+     The left side of the very first brick in a row should start at the very left edge of the window, and the remaining bricks should be drawn at appropriate locationsto produce the pattern detailed above.
   
-  *  Milestone 3: Connect the paddle to the mouse (breakout.py)\
+  *  Milestone 3: Connect the paddle to the mouse (breakout.py)
    
-   The paddle moves along a fixed horizontal line on the bottom of the screen, and you are provided with a PADDLE_OFFSET constant that is the distance from the top of the paddle to the bottom of the window.
+     The paddle moves along a fixed horizontal line on the bottom of the screen, and you are provided with a PADDLE_OFFSET constant that is the distance from the top of the paddle to the bottom of the window.
 
   *  Milestone 4: Get the ball to bounce off the walls (breakoutgraphics.py and breakout.py)
      * The program needs to keep track of the velocity of the ball, which consists of two separate components that you can declare as class attributes. 
@@ -27,7 +27,7 @@ Reference to Stanford University’s assignment CS106AP: Programming Methodologi
        The game would be boring if every ball took the same course, so we use the function random.uniform(-MAX_SPEED, MAX_SPEED) to select the vx component randomly. 
      * Get the ball to bounce around the world.
   
-  *  Milestone 5: Check for collisions (breakoutgraphics.py and breakout.py)\
+  *  Milestone 5: Check for collisions (breakoutgraphics.py and breakout.py)
      
      Tell whether the ball is colliding with another object in the window.
      * Call get_object_at() on that location to see whether anything is there.
