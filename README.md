@@ -17,12 +17,11 @@ Reference to Stanford University’s assignment CS106AP: Programming Methodologi
   The paddle moves along a fixed horizontal line on the bottom of the screen, and you are provided with a PADDLE_OFFSET constant that is the distance from the top of the paddle to the bottom of the window.
   
   *  Milestone 4: Get the ball to bounce off the walls (breakoutgraphics.py and breakout.py)
-  (1)The program needs to keep track of the velocity of the ball, which consists of two separate components that you can declare as class attributes.\ 
-     The velocity components represent the change in position that occurs at each time step.\
-     Initially, the ball should be heading downward, and we provide you with a starting speed constant for vy (y values increase as you move down the screen).\ 
-     The game would be boring if every ball took the same course, so we use the function random.uniform(-MAX_SPEED, MAX_SPEED) to select the vx component randomly.\ 
-     
-  (2)Get the ball to bounce around the world.\
+     * 1. The program needs to keep track of the velocity of the ball, which consists of two separate components that you can declare as class attributes.\ 
+       The velocity components represent the change in position that occurs at each time step.\
+       Initially, the ball should be heading downward, and we provide you with a starting speed constant for vy (y values increase as you move down the screen).\ 
+       The game would be boring if every ball took the same course, so we use the function random.uniform(-MAX_SPEED, MAX_SPEED) to select the vx component randomly.\ 
+     * 2. Get the ball to bounce around the world.\
   
   *  Milestone 5: Check for collisions (breakoutgraphics.py and breakout.py)
   Tell whether the ball is colliding with another object in the window.\
