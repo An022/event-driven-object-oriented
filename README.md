@@ -3,11 +3,11 @@ Reference to Stanford University’s assignment CS106AP: Programming Methodologi
 ## Projects Source Codes:
 * [breakout](https://github.com/An022/self_learning-event-driven-object-oriented/blob/main/breakout/breakout.py)
 * [breakoutgraphics](https://github.com/An022/self_learning-event-driven-object-oriented/blob/main/breakout/breakoutgraphics.py)
-  * Milestone 1: Fill in the BreakoutGraphics constructor (breakoutgraphics.py)\
+  * Milestone 1: Fill in the BreakoutGraphics constructor (breakoutgraphics.py)
    
-    * Create a paddle at the correct starting location using the given constants.\
-       (PADDLE_OFFSET is the distance from the top of the paddle to the bottom of the window)\
-    * Create a ball that whose center is in the middle of the window.\
+    * Create a paddle at the correct starting location using the given constants.
+       (PADDLE_OFFSET is the distance from the top of the paddle to the bottom of the window)
+    * Create a ball that whose center is in the middle of the window.
     * Set default values for the ball’s initial x and y velocities. (referred to as vx and vy throughout the rest of this handout)
   
   *  Milestone 2: Draw the bricks (breakoutgraphics.py)
